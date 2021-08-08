@@ -22,6 +22,9 @@ import {
   NgbDropdownModule,
   NgbModule,
 } from '@ng-bootstrap/ng-bootstrap';
+import { AuthGuard } from './services/auth.guard';
+import { AuthService } from './services/auth.service';
+import { UserService } from './services/user.service';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,7 @@ import {
     NgbModule,
     NgbDropdownModule,
   ],
-  providers: [],
+  providers: [AuthGuard, AuthService, UserService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

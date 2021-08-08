@@ -7,6 +7,8 @@ export const environment = {
   firebase: {
     apiKey: 'AIzaSyDXm6E-UVv4SuFS3ZcpbyglZQ51K8VGIA0',
     authDomain: 'oshop-shess.firebaseapp.com',
+    databaseURL:
+      'https://oshop-shess-default-rtdb.asia-southeast1.firebasedatabase.app',
     projectId: 'oshop-shess',
     storageBucket: 'oshop-shess.appspot.com',
     messagingSenderId: '1050661439875',
