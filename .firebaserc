@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "oshop-shess": {
+      "hosting": {
+        "oshop": [
+          "oshop-shess"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "oshop-angular": "oshop-shess"
+  }
+}
